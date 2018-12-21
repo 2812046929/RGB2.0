@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container">
+ <view wx:for="{{a}}" wx:key="unique">{{item}}</view>
+ <view>
+ <button bindtap='b'>chakan1</button>
+ </view>
+</view>
